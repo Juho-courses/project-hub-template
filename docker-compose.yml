@@ -10,7 +10,7 @@
 services:
   # ── PostgreSQL (relational data: users, projects, tasks) ──────────
   postgres:
-    image: postgres:16-alpine
+    image: postgres:18-alpine
     container_name: projecthub-postgres
     restart: unless-stopped
     environment:
